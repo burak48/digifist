@@ -1,0 +1,162 @@
+@import url("https://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std");
+@import url("https://fonts.cdnfonts.com/css/avenir");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.left-content,
+.right-content {
+  width: 50%;
+}
+
+/* .left-content {
+  background-color: #ccc;
+} */
+
+.right-content {
+  /* background-color: #eee; */
+  padding: 96px 120px;
+}
+
+.image {
+  width: 100%;
+}
+
+.text-title {
+  margin: 0px 0px 12px;
+  font-family: ITC Avant Garde Gothic Std, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 61px;
+  line-height: 61px;
+  display: flex;
+  align-items: flex-end;
+  color: #000;
+}
+
+.text-content {
+  margin: 0px 0px 32px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666;
+}
+
+.text-button {
+  margin: 0px 0px 68px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.swiper-title {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000;
+}
+
+.swiper-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.swiper-price {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.8px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+
+input[type="radio"][value="red"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-clip: content-box;
+  border: 1px solid #fff;
+  background-color: #99c3cc;
+}
+
+input[type="radio"][value="red"]:checked {
+  background-color: #99c3cc;
+  padding: 3px;
+  border: 1px solid #000;
+}
+
+input[type="radio"][value="green"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-clip: content-box;
+  border: 1px solid #fff;
+  background-color: #cc9999;
+}
+
+input[type="radio"][value="green"]:checked {
+  background-color: #cc9999;
+  padding: 3px;
+  border: 1px solid #000;
+}
+
+input[type="radio"][value="blue"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-clip: content-box;
+  border: 1px solid #fff;
+  background-color: #cb99cc;
+}
+
+input[type="radio"][value="blue"]:checked {
+  background-color: #cb99cc;
+  padding: 3px;
+  border: 1px solid #000;
+}
+
+input[type="radio"][value="yellow"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-clip: content-box;
+  border: 1px solid #fff;
+  background-color: #bcd9b2;
+}
+
+input[type="radio"][value="yellow"]:checked {
+  background-color: #bcd9b2;
+  padding: 3px;
+  border: 1px solid #000;
+}
