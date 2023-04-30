@@ -1,0 +1,14 @@
+{
+  "name": "digifist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Burak Saglam",
+  "license": "ISC",
+  "devDependencies": {
+    "surge": "^0.23.1"
+  }
+}
