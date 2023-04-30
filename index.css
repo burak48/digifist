@@ -109,9 +109,6 @@ body {
   margin: 0 0 8px;
 }
 
-/* width: 20px;
-  height: 20px; */
-
 input[type="radio"][value="red"] {
   appearance: none;
   width: 16px;
@@ -184,18 +181,21 @@ input[type="radio"][value="yellow"]:checked {
   display: none;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    flex-direction: row;
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container { 
+    flex-direction: column;
   }
-  .left-content,
+  .left-content {
+    width: 100%;
+    position: absolute;
+  }
   .right-content {
-    width: 50%;
-    position: unset;
-    margin-top: unset;
+    width: 100%;
+    position: relative;
+    margin-top: 50%;
   }
   .right-content-wrapper {
-    padding: 96px 0px 96px 120px;
+    padding: 24px 29px;
   }
 
   .swiper .hide-arrow {
@@ -222,31 +222,41 @@ input[type="radio"][value="yellow"]:checked {
     font-weight: 400;
     font-size: 21px;
     line-height: 31px;
-    color: #666;
+    color: #fff;
   }
 
   .text-title {
-    color: #000;
+    color: #fff;
     font-size: 56px;
     line-height: 66px;
     margin: 0px 0px 12px;
   }
   .text-button {
-    color: #000;
+    color: #fff;
     font-size: 16px;
     line-height: 20px;
   }
 
   .right-button {
     margin: 0px 0px 68px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #fff;
+  }
+  .swiper .hide-arrow {
+    display: none;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .container {
-    flex-direction: row;
+    flex-direction: inherit;
   }
+
+  .left-content {
+    width: 50%;
+    position: unset;
+    margin-top: unset;
+  }
+
   .right-content {
     width: 50%;
     position: unset;
