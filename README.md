@@ -24,7 +24,7 @@ Open the **_index.html_** file in your preferred browser to view the project.
 
 ## Live Demo
 
-Check out the live demo at https://jealous-pump.surge.sh/.
+Check out the live demo at https://ubiquitous-level.surge.sh/.
 
 <br />
 
